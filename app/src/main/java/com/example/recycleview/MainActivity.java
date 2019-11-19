@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         rvNumber.setLayoutManager(new LinearLayoutManager(this));
 
         final List<String> data1=new ArrayList<>();
-        for(int i = 0;i<10;i++){
+        for(int i = 0;i<100;i++){
             data1.add(String.valueOf(i));
         }
         final NumberAdapter adapter=new NumberAdapter();
